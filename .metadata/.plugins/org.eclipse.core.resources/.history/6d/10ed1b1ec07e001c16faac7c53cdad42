@@ -1,0 +1,28 @@
+package com.employee_test_cases;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.TestInstance.Lifecycle;
+import com.employee.manager.Manager;
+import com.employee.marketingexecutive.MarketingExecutive;
+
+@TestInstance(Lifecycle.PER_CLASS)
+class Employee_TestCases {
+
+	Manager m;
+	MarketingExecutive e;
+	@BeforeAll
+	void init()
+	{
+		m=new Manager(112,"sai",25000);
+		e= new MarketingExecutive(113,"teja",30000);
+	}
+	@Test
+	void test() {
+		
+	
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.MethodOverrididng;
+
+public class Person 
+{
+	String name,lastname;
+	int mobilenumber;
+	
+	void setData(String name,String lastname)
+	{
+		this.name=name;
+		this.lastname=lastname;
+	}
+	
+	void setData(int mobilenumber)
+	{
+		this.mobilenumber=mobilenumber;
+	}
+	
+	void getData()
+	{
+		System.out.println("name is "+name);
+		System.out.println("Last Name is "+lastname);
+		System.out.println("Mobile Number is "+mobilenumber);
+	}
+	
+	
+	
+	
+}

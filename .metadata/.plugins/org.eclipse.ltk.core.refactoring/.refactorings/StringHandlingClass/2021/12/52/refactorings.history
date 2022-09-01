@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BinaryToDecimalUsingString.java&apos; to &apos;Exception_Handling/src/com.exceptionhandling.userdefinedexceptions&apos;&#x0D;&#x0A;- Original project: &apos;StringHandlingClass&apos;&#x0D;&#x0A;- Destination element: &apos;Exception_Handling/src/com.exceptionhandling.userdefinedexceptions&apos;&#x0D;&#x0A;- Original element: &apos;stringexamples.BinaryToDecimalUsingString.java&apos;" description="Copy compilation unit" destination="=Exception_Handling/src&lt;com.exceptionhandling.userdefinedexceptions" element1="/src&lt;stringexamples{BinaryToDecimalUsingString.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1640099425811" units="1" version="1.0"/>
+</session>
